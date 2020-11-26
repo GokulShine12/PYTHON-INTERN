@@ -4,8 +4,9 @@ print("a divided by 5 is: ",(a/5))
 print("b multiplied by 100 is:",b*100)
 print("c plus 80 is:",c+80)
 
-word="hello gokul"
-print(word[:2] +"g"+ word[3:])
+word="happy"
+output=word.replace("p","G",1)
+print(output)
 
 a=80
 b=16.9
