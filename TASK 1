@@ -1,0 +1,23 @@
+
+print("30 days 30 hours challenge")
+hours = "thirty"
+print(hours)
+
+days="thirty days"
+print(days[0])
+
+challenge="I will win"
+print(challenge[7:10])
+
+print(challenge.lower())
+
+a = "30 days"
+b = "30 hours"
+
+print(a + " " +b)
+
+text="thirty days thirty hours"
+print(text.casefold())
+
+str = "hello world"
+print(str[2:])
