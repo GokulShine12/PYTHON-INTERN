@@ -26,7 +26,7 @@ except ModuleNotFoundError:
   print("Module not found")
 
 
-#calculator
+# 2. calculator
 def calculator():
          try:
            a=int(input("Number 1 : "))
@@ -48,7 +48,7 @@ def calculator():
 calculator()
 
 
-#Print one message if the try block raises a NameError and another for other errors
+# 3. Print one message if the try block raises a NameError and another for other errors
 try:
   print(name)
 except NameError:
@@ -57,7 +57,7 @@ except:
   print("Other error has occured")
 
 
-#Input inside the try catch block
+# 5. Input inside the try catch block
 try:
   sport=int(input("Your favorite sport is "))
   print(sport)
