@@ -55,6 +55,11 @@ except NameError:
   print("Name is not defined")
 except:
   print("Other error has occured")
+  
+  
+# 4. When try-except scenario is not required ?
+
+    " When our program has normal statements , there is no need for try-except "
 
 
 # 5. Input inside the try catch block
