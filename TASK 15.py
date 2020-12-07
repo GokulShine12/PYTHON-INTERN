@@ -79,10 +79,10 @@ def paddle_b_down():
 
 # Keyboard bindings
 wn.listen()
-wn.onkeypress(paddle_a_up, "w")
-wn.onkeypress(paddle_a_down, "s")
-wn.onkeypress(paddle_b_up, "Up")
-wn.onkeypress(paddle_b_down, "Down")
+wn.onkeypress(paddle_a_up, "Up")
+wn.onkeypress(paddle_a_down, "Down")
+wn.onkeypress(paddle_b_up, "z")
+wn.onkeypress(paddle_b_down, "x")
 
 # Main game loop
 while True:
